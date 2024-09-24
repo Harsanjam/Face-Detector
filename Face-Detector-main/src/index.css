@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Courier new", Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 208, 218, 1) 0%, rgba(24, 179, 218, 1) 100%, rgba(76, 215, 47, 1) 100%, rgba(85, 224, 17, 1) 100%);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 3rem;
+  padding-bottom: 0px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+  
+}
+
+@media screen and (max-device-width:450px), screen and (max-width:450px) {
+	body {
+    background-color: black;
+	}
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+button {
+  cursor: pointer;
+}

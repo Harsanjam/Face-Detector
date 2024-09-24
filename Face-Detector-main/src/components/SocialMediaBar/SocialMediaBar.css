@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.mf-social-side-list {
+    position: fixed;
+    top: 30vh;
+    left: 10px;
+    padding-left: 0;
+    z-index: 100;
+}
+
+.mf-social-side-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+   
+}
+@media screen and (max-width: 800px) {
+    .mf-social-side-list{
+        padding-left: 155px;
+        padding-top: 360px;
+    
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .socialul{
+
+        rotate: 90deg; 
+        gap: 0px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .eaachSocialul{
+        -webkit-transform:rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+        
+    }
+    
+}
+
+.mf-social-side-list ul li a {
+    color: #ffffff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 70px;
+    padding-left: 0%;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    
+}
+
+.mf-social-side-list ul li a:hover {
+    opacity: .9;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+.mf-social-side-list ul li a[href*='facebook'] {
+    background: rgba(13, 218, 118, 1) 
+}
+
+.mf-social-side-list ul li a[href*='instagram'] {
+    background: rgba(13, 218, 118, 1) 
+    ;
+}
+
+.mf-social-side-list ul li a[href*='youtube'] {
+    background: rgba(13, 218, 118, 1) 
+}
+
+.mf-social-side-list ul li a[href*='linkedin'] {
+    background: rgba(13, 218, 118, 1) 
+}
+
+.mf-social-side-list ul li a[href*='twitter'] {
+    background: rgba(13, 218, 118, 1);
+}
+
+.mf-social-side-list ul li a[href*='github'] {
+    background: rgba(13, 218, 118, 1) ;
+}
+
+.githubSpecific {
+
+    line-height: 77px;
+}
+.youtubeSpecific{
+    line-height: 73px;
+}
+.instagramSpecific{
+    line-height: 74px;
+}
