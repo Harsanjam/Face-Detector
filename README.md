@@ -9,7 +9,7 @@
   * Demo Email: `demouser@gmail.com`
   * Demo Password: `Demouser1#`
  
-The backend for this application can be found here: 
+The backend for this application can be found here: https://github.com/Harsanjam/Face-Detector-Backend
     
 ## More Details
 * This is a fully functional Web App that performs Face Recognition on any image
